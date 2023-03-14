@@ -42,5 +42,4 @@ public class Dos {
         scanner.close();
         return;
     }
-
 }

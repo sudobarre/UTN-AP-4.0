@@ -12,13 +12,14 @@ suma o multiplicación.
 
 public class Dos {
     public static void main(String[] args) throws Exception {
-        if (args.length < 2) {
+        if (args.length !=  2) {
             System.out.println("Uso: java Main <filename> suma/multiplicacion");
             System.exit(1);
         }
 
         if(!(args[1].equals("suma") || args[1].equals("multiplicacion"))){
             System.out.println("Uso: java Main <filename> suma/multiplicacion");
+            System.exit(1);
         }
         boolean esSuma = args[1].equals("suma");
 

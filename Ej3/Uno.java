@@ -32,7 +32,7 @@ public class Uno {
     public static Integer[] ordenarPor(Integer[] arr, String orden) throws Exception{
         //si se quiere conservar el original
         Integer[] res = arr.clone();
-        if(!(orden.equals("ascendente") || orden.equals("decreciente"))) throw new Exception("EL orden tiene que ser ascendente o decreciente.");
+        if(!(orden.equals("ascendente") || orden.equals("decreciente"))) throw new Exception("El orden tiene que ser ascendente o decreciente.");
         if (orden.equals("ascendente")) {
             for (int i = 0; i < res.length - 1; i++) {
                 for (int j = i + 1; j < res.length; j++) {
