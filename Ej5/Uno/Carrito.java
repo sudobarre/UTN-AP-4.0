@@ -6,10 +6,9 @@ public class Carrito {
     private Producto prod3 = null;
 
 
-    Carrito(){}
+
     //hice 3 constructores por si faltaba algun producto, nose si esta bien
-
-
+    Carrito(){}
     Carrito(Producto prod1){
         this.prod1 = prod1;
     }
